@@ -1,0 +1,21 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+.cover {
+  background-image: url('/images/cover.jpg');
+  background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.company-name {
+  font-size: 60px;
+  padding-top: 10px;
+  padding-right: 40px;
+}
