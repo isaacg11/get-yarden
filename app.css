@@ -3,8 +3,8 @@ body {
   margin: 0px;
 }
 
-p {
-  margin-top: 0px;
+button {
+  width: 200px;
 }
 
 .cover {
@@ -18,4 +18,67 @@ p {
   font-size: 60px;
   padding-top: 10px;
   padding-right: 40px;
+}
+
+.company-slogan {
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: 200px;
+}
+
+.flat-butt {
+  display: inline-block;
+  margin: 0 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 16.5px;
+  padding: 12px 20px;
+  border: 2px solid #ffffff;
+  background: none;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+.flat-butt:hover {
+  background-color: #FFF;
+  color: #666666;
+}
+
+.what {
+  background-color: #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.how {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.how, p {
+  font-size: 20px;
+}
+
+.how, h1 {
+  margin-bottom: 50px;
+}
+
+.placeholder-img {
+  width: 100%;
+}
+
+.why {
+  background-color: #3f2c1a;
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fa-plus {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #666666;
+}
+
+.divider {
+  margin-top: 30px;
 }
