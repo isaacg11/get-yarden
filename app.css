@@ -7,8 +7,12 @@ button {
   width: 200px;
 }
 
+h2 {
+  color: #807C80;
+}
+
 .divider {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .cover {
@@ -22,6 +26,12 @@ button {
   font-size: 60px;
   padding-top: 10px;
   padding-right: 40px;
+}
+
+.fa-caret-down {
+  font-size: 20px;
+  margin-left: 5px;
+  cursor: pointer;
 }
 
 .company-slogan {
@@ -49,13 +59,18 @@ button {
 
 .what {
   background-color: #eeeeee;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
   border-top: 1px solid #cccccc;
 }
 
+.steps {
+  background-color: #E0722C;
+  border-radius: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .how {
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -67,15 +82,19 @@ button {
   margin-bottom: 50px;
 }
 
+.how, h3 {
+  margin-top: 50px;
+}
+
 .placeholder-img {
-  width: 100%;
+  width: 75%;
 }
 
 .why {
   background-color: #3f2c1a;
   color: #FFF;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .fa-plus {
@@ -85,7 +104,7 @@ button {
 }
 
 .when {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -98,6 +117,7 @@ button {
      -moz-transform: scale(1.1);
      -o-transform: scale(1.1);
  }
+
  .social {
      -webkit-transform: scale(0.8);
      /* Browser Variations: */
@@ -109,19 +129,27 @@ button {
      -o-transition-duration: 0.5s;
  }
 
-/*
-    Multicoloured Hover Variations
-*/
-
  #social-fb:hover {
      color: #3B5998;
  }
+
  #social-tw:hover {
      color: #4099FF;
  }
+
  #social-gp:hover {
      color: #d34836;
  }
+
  #social-em:hover {
      color: #f39c12;
  }
+
+ .copyright {
+   font-size: 20px;
+ }
+
+.footer-link:hover {
+  color: #55ACEE;
+  cursor: pointer;
+}
